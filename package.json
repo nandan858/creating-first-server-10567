@@ -4,6 +4,7 @@
   "description": "Our first node.js server",
   "main": "server.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nandan858/creating-first-server-10567/issues"
   },
-  "homepage": "https://github.com/nandan858/creating-first-server-10567#readme"
+  "homepage": "https://github.com/nandan858/creating-first-server-10567#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {}
 }
